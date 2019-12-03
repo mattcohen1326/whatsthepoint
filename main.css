@@ -35,17 +35,18 @@ body{
     justify-content:space-evenly;/*space out the elements evenly*/
     background-color:black;
     border-style: solid;
+    height:100%;
     /*border-width: 5px;*/
     /*border-color: green;*/
 }
-.grid-container-2{
-    display:grid;
-    grid-template-columns:auto;
-    justify-content:center;
-    padding-top:10%;
-    grid-column-gap:10px;
+.grid-container-2 {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    padding-top: 10%;
+    grid-column-gap: 10px;
     margin-bottom: 1.5%;
-	
+    height: 100%;
 }
 .grid-container-3{
     display:grid;
@@ -54,10 +55,10 @@ body{
     padding-top:5%;
     grid-column-gap:10px;
     margin-bottom: 1%;
+
 	
 }
 .desc{
-
 }
 
 p{
@@ -66,4 +67,5 @@ p{
 	margin-left:10%;
 	margin-right:10%;
 	padding-top:10%;
+    height:100%;
 }
