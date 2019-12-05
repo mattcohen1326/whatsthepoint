@@ -1,12 +1,12 @@
-body{
-    background-color:coral;
-    background-repeat:repeat;
-    margin:0px;
-    background-attachment:fixed;
+body {
+    background-color: #66883F;
+    background-repeat: repeat;
+    margin: 0px;
+    background-attachment: fixed;
 }
-.logo{
-    text-align:center;
-    background-color:black;
+.logo {
+    text-align: center;
+    background-color: #333C1A;
 }
 .stick{
     position:fixed;
@@ -14,31 +14,30 @@ body{
     top:0px;
     margin-bottom:10%;
 }
-.nav-item{
+.nav-item {
     font-family: 'Bubblegum Sans', cursive;
-    font-size:250%;
-    color: gray;
+    font-size: 250%;
+    color: #7A8491;
 }
 .nav-item a{
     text-decoration:none;
     color:inherit;
 }
 
-.nav-item:hover{
-    color:pink;
-    text-decoration:solid;
-    text-shadow:-2px 0 #d738f4, 0 2px #d738f4, 2px 0 #d738f4, 0 -2px #d738f4;
-}
+.nav-item:hover {
+        color: #C57200;
+        text-decoration: solid;
+    }
 .page-container{
     height:100%;
 }
-.grid-container{
-    display:grid; /*gap set to auto for rows and columns*/
-    grid-template-columns:auto auto; /*four columns for the four items probably should make different grids*/
-    justify-content:space-evenly;/*space out the elements evenly*/
-    background-color:black;
-    border-style: solid;
-    height:50%;
+.grid-container {
+    display: grid; /*gap set to auto for rows and columns*/
+    grid-template-columns: auto auto; /*four columns for the four items probably should make different grids*/
+    justify-content: space-evenly; /*space out the elements evenly*/
+    background-color: #333C1A;
+    /*border-style: solid;*/
+    height: 50%;
     /*border-width: 5px;*/
     /*border-color: green;*/
 }
