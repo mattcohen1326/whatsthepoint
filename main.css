@@ -4,10 +4,7 @@ body {
     margin: 0px;
     background-attachment: fixed;
 }
-.logo {
-    text-align: center;
-    background-color: #333C1A;
-}
+
 .stick{
     position:fixed;
     width:100%;
@@ -19,50 +16,64 @@ body {
     font-size: 250%;
     color: #7A8491;
 }
-.nav-item a{
-    text-decoration:none;
-    color:inherit;
+.nav-item h1{
+    float:left;
+    font-size:75%;
+    margin-left:2%;
+    margin-top:1.7%;
+}
+.nav-item audio{
+   float:right;
+   margin-top:.5%;
+   margin-right:2%;
 }
 
-.nav-item:hover {
-        color: #C57200;
-        text-decoration: solid;
-    }
 .page-container{
     height:100%;
 }
-.grid-container {
-    display: grid; /*gap set to auto for rows and columns*/
-    grid-template-columns: auto auto; /*four columns for the four items probably should make different grids*/
-    justify-content: space-evenly; /*space out the elements evenly*/
+.nav-container {
     background-color: #333C1A;
-    /*border-style: solid;*/
-    height: 50%;
-    /*border-width: 5px;*/
-    /*border-color: green;*/
+    height: 10vh;
+    display:block;
 }
-.grid-container-2 {
-    display: grid;
-    grid-template-columns: auto;
-    justify-content: center;
-    height: 100vh;
+.nav-item img{
+    float:left;
+    width:3%;
+    margin-left:2%;
+    
 }
-.grid-container-3{
-    display:grid;
-    grid-template-columns:auto;
-    justify-content:center;
+.grid-container {
+    height: 80vh;
+    text-align: center;
+    font-family: 'Bubblegum Sans',cursive;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top:7%;
+    margin-bottom:5%;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    background: rgba(0,0,244,.1);
+    color: #7A8491;
+}
+.grid-container a {
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+.grid-container h1{
     padding-top:5%;
-    grid-column-gap:10px;
-    margin-bottom: 1%;
+}
+.grid-container h2{
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+.grid-container img{
+    padding-bottom: 1%;
+    padding-top: 1%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    max-height:50%;
+}
 
-	
-}
-.desc{
-    height:100vh;
-}
-.cast {
-    margin-top: 13.5%;
-}
 p{
 	font-family:'Bubblegum Sans',cursive;
 	font-size:55px;
